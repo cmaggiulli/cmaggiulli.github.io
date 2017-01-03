@@ -1,0 +1,205 @@
+<!-- CHRISTOPHER MAGGIULLI - ALBANY NEW YORK - COPYRIGHT 2016 LOL BNAH
+
+	Hello Friend!  Having a little look'see?  Np.  To save you some time, here's a basic outline of this site's stack:
+
+	1. Materializecss for front-end styling.  Materializecss is why this site looks pretty.
+		http://www.materializecss.com
+
+
+	2. Devicon and Font Awesome.  Most of the icons you see (in the nav bar and the colored ones in icon block) are actually font characters.  A
+	 on this page have either public domain or licensed for commercial reuse.  Below is a link to icons:
+		a. Devicons - http://devicon.fr
+		b. Google's Material Icons - https://fonts.googleapis.com/
+		c. Font Awesome - http://fontawesome.com
+
+	3. All image files are either public domain, creative commons, or licensed under an equally unrestrictive license.
+		a. Rocketship is Android Lollipop with Material Design theme
+		b. Orange background parallax is a stock Microsoft wallpaper. Used with permission from Microsoft.
+		c. The astronaut and a few other "science" themed cartoon icons are from two different free science icon sets - both carrying no restriction
+		d. Any vendor image being used when a product is referenced is either licensed accordingly or fair use
+
+	This website was also used as a component in Stack Overflows Extended Developer survey!
+		
+	Feel free to contact me at cmaggiulli@gmail.com	-->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+			
+		<!-- Meta Information -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title>chris@maggiulli.me</title>
+		
+		<!-- External Scripts -->
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>           
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
+		<script src="https://use.fontawesome.com/4a6859c4d1.js"></script>
+
+		<!-- External Stylesheets -->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+	</head>
+	<body>
+		
+		<header>
+			<!-- Main Navigation -->
+			<nav class="pink darken-3" role="navigation">
+				<div class="nav-wrapper container">
+					<ul class="right">
+						<!-- Projects --><li><a href="#"class="tooltipped" data-position="bottom" data-delay="150" data-tooltip="Projects"><i class="devicon-confluence-plain"></i></a></li>
+						<!-- Repository --><li><a href="#" class="tooltipped" data-position="bottom" data-delay="150" data-tooltip="Repository"><i class="fa fa-github-square" aria-hidden="true"></i></a></li>
+						<!-- Blog --><li><a href="#"class="tooltipped" data-position="bottom" data-delay="150" data-tooltip="Blog"><i class="fa fa-btc" aria-hidden="true"></i></a></li>
+						<!-- Community --><li><a href="docs/resume.pdf" target="_blank" class="tooltipped" data-position="bottom" data-delay="150" data-tooltip="Resume"><i class="fa fa-user-circle" aria-hidden="true"></i></a></li>
+						<!-- Contact --><li><a href="#" class="tooltipped" data-position="bottom" data-delay="150" data-tooltip="Contact"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+
+		<main>
+			<!-- First Parallax Container -->
+			<div id="index-banner" class="parallax-container">
+				<div class="section">
+					<div class="container">
+						<div class="row center valign">
+							<h1 class="col s12 m12 l12 bold pad-bot">Featured Projects</h1>
+						</div>
+						<div class="row center">
+							<div class="col l4 hide-on-med-and-down">
+								<img src="img/icons/chrome.png" class="responsive-image top" />
+							</div>
+							<div class="col s12 m12 l8">
+								<blockquote class="flow-text" style="font-family: 'Roboto Slab', serif;">
+								<h3>BirdHouse</h3>
+								BirdHouse is a light weight source control development tool and browser extension for Google Chrome and Chrome Canary.  BirdHouse sits
+								inside Chrome's developer console and extends the capabilities of the Chrome's native revision log.  BirdHouse integrates seamlessly
+								with Git and Apache Subversion and puts Google Chrome on the path to becoming a full fledge integrated development environment.  Installation
+								is possible through the Chrome app store or can be built directly from it's public repository on Github.  BirdHouse creates a new area for
+								source control where a solo dev or team of devs can make, share, and persist front end changes to any web application without making
+								any modifications to the actual codebase.
+								</blockquote>
+							</div>
+						</div>
+					</div>
+					<div class="parallax"><img src="img/parallax/two.png" style="opacity:0.5;" alt="Unsplashed background img 1"></div>
+				</div>
+			</div>
+			
+			<!-- Icon Block container -->
+			<div class="container">
+				<div class="section pad-bot pad-top">
+					<div class="row center">
+						<br />
+						<div class="col s12 m4">
+							<div class="icon-block">
+								<i class="large center devicon-amazonwebservices-original colored"></i>
+								<h3 class="center">Cloud Services</h3>
+								<p class="light">
+								A  brief musing on how OpenStack at Rackspace "stacks up" to Amazon Web Services through both a personal and enterprise lense. A though on doing cool things
+								with AWS Java SDK.
+								</p>
+							</div>
+						</div>
+						<div class="col s12 m4">
+							<div class="icon-block">
+								<i class="large center devicon-chrome-plain-wordmark colored"></i>
+								<h3 class="center">Developer Tools</h3>
+								<p class="light">
+								See the current Google Chrome Developer Tools extensions that I am working on including a light weight and extended source control extension and a beautifier
+								extension that allows for more granular control over beautification.  Also, Canary.
+								</p>
+							</div>
+						</div>
+						<div class="col s12 m4">
+							<div class="icon-block">
+								<i class="large center devicon-bitbucket-plain-wordmark colored"></i>
+								<h3 class="center">Atlassian</h3>
+								<p class="light">
+								Why I have JIRA running on a Raspberry PI 3 and the merits of leading a sprint to develop more robust integration for your sprints. JIRA and Github for your
+									automation for your companies open source projects.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!-- First Parallax Container -->
+			<div class="parallax-container">
+				<div class="section">
+					<div class="container">
+						<div class="row">
+							
+						</div>
+					</div>
+					<div class="parallax"><img src="img/parallax/spaceship.png" alt="Unsplashed background img 1"></div>
+				</div>
+			</div>
+			
+			<div class="container">
+				<div class="row center">
+					<h1 class="col s12 m12 l12 bold" style="font-family: 'Roboto Slab', serif;">About Me</h1>
+				</div>
+				<div class="row center top">
+					<div class="col s12 m4 l4 push">
+						<img src="img/icons/astronaut.png" class="responsive-image valign" />
+						<br />
+						<a href="#resume" class=" center valign btn waves-effect">Resume</a>
+						<br />
+					</div>
+					<div class="col s12 m8 l8 pull">
+						<blockquote class="medium flow-text" style="font-family: 'Roboto Slab', serif;">
+						My name is Chris Maggiulli and I am a developer from the Albany New York and greater NYC area. I have a bachelors degree from
+							the University at Albany with a concentration in computer science, 4 years of enterprise development and operations experience,
+							and over 15 years working on academic, contract, or personal projects.  I am currently employed as a Senior Java Developer for
+							Latham International where I lead a team of 4 Java developers and work on Liferay, Hybris, and RabbitMQ platforms.  My
+							technical experience is in JVM languages, SCM, web services, cloud services, CI, build automation, relational data, agile
+							tools, Linux RHEL, OOAD and patterns, MQ, unit and pen testing, , scripting, etc.  As a team lead I (try to) estimate project timelines,
+							research and develop new tech, mentor junior developers, onboard new Java developers, conduct technical interviews, and guide
+							Latham's Java division.  I am working on several personal projects and my goal for 2017 is to open source my past projects and start
+							contributing code to the Liferay portal codebase.
+						</blockquote>
+					</div>
+				</div>
+			</div>
+		</main>
+		
+		
+		<!-- Footer -->
+		<footer class="page-footer">
+			<div class="section no-pad-bot no-pad-bottom"></div>
+				<div class="row">
+					<div class="col l12s12">
+					</div>
+				</div>
+				<div class="footer-copyright">
+					<div class="container valign-wrapper">
+					    <i class="small fa fa-creative-commons valign" aria-hidden="true"></i>
+						<a class="white-text text-lighten-3 thin valign" style="padding-left:2em; font-family: 'Roboto Slab', serif; text-decoration:none;" rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">Creative Commons Attribution 3.0 Unported License</a>.
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+			  <!-- Modal Structure -->
+		<div id="resume" class="modal bottom-sheet">
+			<div class="modal-content">
+			  <h4>Resume</h4>
+			  <p>A bunch of text</p>
+			</div>
+			<div class="modal-footer">
+			  <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+			</div>
+		</div>
+          
+		<!--  Scripts-->
+		<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script src="js/materialize.js"></script>
+		<script src="js/init.js"></script>
+	</body>
+</html>
+
