@@ -7,8 +7,18 @@
  */
 
 .icon-block {
-  padding: 0 15px;
+	padding: 0 15px;
+  	opacity: .5;
+	  transition: opacity .5s ease-out;
+  	-moz-transition: opacity .5s ease-out;
+	  -webkit-transition: opacity .5s ease-out;
+	  -o-transition: opacity .5s ease-out;
 }
+
+.icon-block:hover {
+	opacity: 1;
+}
+
 .icon-block .material-icons {
 	font-size: inherit;
 }
