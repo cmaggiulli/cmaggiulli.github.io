@@ -2,7 +2,7 @@
 This website was originally developed as part of a task for Stack Overflows Developer Story research panel.  I have since uploaded and 
 licensed this code for reuse as outlined below.
 
-www.cmaggiulli.github.io
+http://cmaggiulli.github.io
 
 ## Stack
 This site was developed using HTML5, CSS3, Bootstap, and Materializecss with fonts, icons, and vector images provided by Google Font,
