@@ -1,6 +1,5 @@
 ## About
-This website was originally developed as part of a task for Stack Overflows Developer Story research panel.  I have since uploaded and 
-licensed this code for reuse as outlined below.
+This website was originally developed as part of a task for Stack Overflows Developer Story research panel.  I am repurposing it as a blog frontpage for a product I am currently working on.
 
 http://cmaggiulli.github.io
 

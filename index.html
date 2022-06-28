@@ -3,10 +3,11 @@
 	PLEASE ADD THIS ENTIRE NOTICE IN ALL REDISTRIBUTIONS
 	GPL GNU v3.0
 
-	Original development by:
+	Site Developed by:
 	Chris Maggiulli
-	http://cmaggiulli.github.io
+	Director, Product Development, SIS
 	cmaggiulli@gmail.com
+	cm4202@columbia.edu
 
 	1. Materializecss for front-end styling.  Materializecss is why this site looks pretty.
 		http://www.materializecss.com
@@ -33,12 +34,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="theme-color" content="#85BB98">
 
-		<title>Seven Generation - Free Open Source Software</title>
+		<title>Vergil Product & Engineering Blog</title>
 
 		<!-- External Scripts -->
 		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>           
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
-		<script src="https://use.fontawesome.com/4a6859c4d1.js"></script>
+		<!--<script src="https://use.fontawesome.com/4a6859c4d1.js"></script>-->
+		<script src="https://kit.fontawesome.com/fd1b47a1ab.js" crossorigin="anonymous"></script>
 
 		<!-- External Stylesheets -->
 		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Poppins">
@@ -94,18 +96,23 @@
 				<div class="nav-wrapper container">
 					<a href="#" data-activates="side-bar" class="button-collapse"><i class="fa fa-bars" aria-hidden="true"></i></a>
 					<ul class="right hide-on-small-only">
-						<li><a href="resources/resume.pdf" class="tooltipped" data-position="bottom" data-delay="150" data-tooltip="About" traget="_blank"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
-						<li><a href="#" class="tooltipped" data-position="bottom" data-delay="150" data-tooltip="Projects"><i class="devicon-confluence-plain"></i></a></li>
-						<li><a href="#" class="tooltipped" data-position="bottom" data-delay="150" data-tooltip="Code"><i class="fa fa-github-square" aria-hidden="true"></i></a></li>
+						<li><a href="#" class="tooltipped" data-position="bottom" data-delay="150" data-tooltip="About" target="_blank"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
+						<li><a href="#" class="tooltipped" data-position="bottom" data-delay="150" data-tooltip="Team" target="_blank"><i class="fa fa-solid fa-person-chalkboard" aria-hidden="true"></i></a></li>
 						<li><a href="#" class="tooltipped" data-position="bottom" data-delay="150" data-tooltip="Blog"><i class="fa fa-btc" aria-hidden="true"></i></a></li>
 						<li><a href="#" class="tooltipped" data-position="bottom" data-delay="150" data-tooltip="Contact"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+						<li><a href="#" class="tooltipped" data-position="bottom" data-delay="150" data-tooltip="Code"><i class="fa fa-github-square" aria-hidden="true"></i></a></li>
+						<li><a href="#" class="tooltipped" data-position="bottom" data-delay="150" data-tooltip="Projects"><i class="devicon-confluence-plain"></i></a></li>
+
+
+
 					</ul>
 					<ul class="side-nav pink darken-1" id="side-bar">
-						<li class="valign-wrapper"><a href="resources/resume.pdf" traget="_blank"><h3 class="white-text>About</h3></a></li>
-						<li class="valign-wrapper"><a href=""><h3 class="white-text">Projects</h3></a></li>
-						<li class="valign-wrapper"><a href=""><h3 class="white-text">Code</h3></a></li>
+						<li class="valign-wrapper"><a href="" target="_blank"><h3 class="white-text">About</h3></a></li>
 						<li class="valign-wrapper"><a href=""><h3 class="white-text">Blog</h3></a></li>
 						<li class="valign-wrapper"><a href=""><h3 class="white-text">Contact</h3></a></li>
+						<li class="valign-wrapper"><a href=""><h3 class="white-text">Code</h3></a></li>
+						<li class="valign-wrapper"><a href=""><h3 class="white-text">Projects</h3></a></li>
+
 					</ul>
 				</div>
 			</nav>
@@ -118,13 +125,15 @@
 					<div class="container">
 						<div class="row">
 							<div class="col l6 hide-on-med-and-down center">
-								<img src="img/icons/chrome.png" class="responsive-image" />
+								<img src="img/icons/columbia-logo-300x300.png" class="circle responsive-image" />
 							</div>
 							<div class="col s12 m12 l6">
-								<h1>Chris Maggiulli</h1>
+								<h1>Columbia University</h1> 
+								<h2>Vergil's Product & Engineering Blog</h2>
 								<blockquote class="flow-text">
-									This is my professonal and personal site related to all things engineering.  This is simply a hub
-									linking yo my resume, blog, GitHub, and StackOverflow.  Contact page is provided but emails are welcomed!
+									Vergil is Columbia Universities newly developed Student Information System.  The system 
+									is developed internally and is the worlds most advanced and progressive Student Information
+									System.
 								</blockquote>
 							</div>
 						</div>
@@ -141,30 +150,28 @@
 						<div class="col s12 m4">
 							<div class="icon-block">
 								<i class="center devicon-amazonwebservices-original colored extra-large"></i>
-								<h3 class="center">Cloud Services</h3>
+								<h3 class="center">Cloud Architecture</h3>
 								<p class="light">
-							        	As a Usability Tester for AWS I work with Amazon engineers and researchers to analyze the usability of AWS products.  
-									I have worked on Route 53 and more recently on Lambda. 
+							        	A high level technical overview of our AWS Cloud Architecture
 								</p>
 							</div>
 						</div>
 						<div class="col s12 m4">
 							<div class="icon-block">
-								<i class="center devicon-chrome-plain-wordmark colored extra-large"></i>
-								<h3 class="center">Developer Tools</h3>
+								<i class="center devicon-django-plain-wordmark colored extra-large"></i>
+								<h3 class="center">Django Microservices</h3>
 								<p class="light">
-									A preview of two Chrome extensions I'm working on.  A source control tool for code that isn't yours, and extending the prettifier.
-									Also, Canary.
+									This article outlines Vergil's Lambda microservice architecture using Django
 								</p>
 							</div>
 						</div>
 						<div class="col s12 m4">
 							<div class="icon-block">
-								<i class="center devicon-bitbucket-plain-wordmark colored extra-large"></i>
-								<h3 class="center">Atlassian</h3>
+								<i class="center devicon-gitlab-plain-wordmark colored extra-large"></i>
+								<h3 class="center">GitLab Flow</h3>
 								<p class="light">
-									Why I have JIRA running on a Raspberry PI 3 and a critical comparison of versionOne v. JIRA (Spoiler alert: JIRA wins). 
-									Why a great API makes all the difference.
+									An detailed overview of the branching and merging strategy employed in the development of 
+									Vergil.
 								</p>
 							</div>
 						</div>
